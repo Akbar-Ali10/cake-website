@@ -79,8 +79,10 @@ export const businessConfig = {
   city: 'Karachi',
   hours: 'Open 24/7',
   // Social links (leave empty string to hide)
-  instagram: 'https://instagram.com/zaincake.pk',
+  instagram: 'https://www.instagram.com/zainali4280?obrf=N3E3MTdkN3I3ZXls',
   facebook: 'https://facebook.com/zaincake.pk',
+  tiktok: 'https://www.tiktok.com/@zainali67232?_r=1&_t=ZS-9An2zSgAD3A',
+  youtube: 'https://youtube.com/@zainali6723-en3vh?si=NWXzQwazSxnxtWxH',
   // Google Maps embed src (optional)
   mapsEmbedQuery: 'DHA Phase 6, Karachi, Pakistan',
 };

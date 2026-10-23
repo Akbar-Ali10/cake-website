@@ -1,4 +1,4 @@
-import { Cake, Instagram, Facebook, MapPin, Phone, Clock, Mail } from 'lucide-react';
+import { Cake, Instagram, Youtube, MapPin, Phone, Clock, Mail } from 'lucide-react';
 import { businessConfig } from '@/config/siteConfig';
 
 interface FooterProps {
@@ -30,15 +30,28 @@ export default function Footer({ onNavigate }: FooterProps) {
                   <Instagram className="w-4 h-4" />
                 </a>
               )}
-              {businessConfig.facebook && (
+              {businessConfig.tiktok && (
                 <a
-                  href={businessConfig.facebook}
+                  href={businessConfig.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-cocoa-700 hover:bg-cocoa-600 flex items-center justify-center transition-colors"
-                  aria-label="Facebook"
+                  aria-label="TikTok"
                 >
-                  <Facebook className="w-4 h-4" />
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.327V2h-3.448v13.672a2.896 2.896 0 0 1-2.888 2.896 2.896 2.896 0 0 1-2.888-2.896 2.896 2.896 0 0 1 2.888-2.896c.301 0 .59.047.863.132V9.395a6.3 6.3 0 0 0-.863-.06A6.34 6.34 0 0 0 3.15 15.67 6.34 6.34 0 0 0 9.488 22a6.34 6.34 0 0 0 6.339-6.33V8.73a8.198 8.198 0 0 0 4.763 1.52V6.803a4.805 4.805 0 0 1-1.001-.117Z" />
+                  </svg>
+                </a>
+              )}
+              {businessConfig.youtube && (
+                <a
+                  href={businessConfig.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full bg-cocoa-700 hover:bg-cocoa-600 flex items-center justify-center transition-colors"
+                  aria-label="YouTube"
+                >
+                  <Youtube className="w-4 h-4" />
                 </a>
               )}
             </div>
