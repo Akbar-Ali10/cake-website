@@ -67,7 +67,7 @@ export interface Review {
 // 1. Bakery Identity
 // --------------------------------------------------
 export const businessConfig = {
-  name: 'Zain Cake',
+  name: 'Cake House',
   tagline: 'Freshly Baked Cakes for Every Celebration',
   // WhatsApp number in international format WITHOUT + or spaces or dashes.
   // Replace the placeholder below with your real number, e.g. 923001234567.
@@ -408,19 +408,19 @@ export const paymentMethods: PaymentMethod[] = [
   {
     id: 'easypaisa',
     label: 'Easypaisa',
-    accountName: 'Zain Cake Bakery',
+    accountName: 'Cake House',
     accountDetails: '03XX-XXXXXXX (Enter your Easypaisa number)',
   },
   {
     id: 'jazzcash',
     label: 'JazzCash',
-    accountName: 'Zain Cake Bakery',
+    accountName: 'Cake House',
     accountDetails: '03XX-XXXXXXX (Enter your JazzCash number)',
   },
   {
     id: 'bank',
     label: 'Bank Transfer',
-    accountName: 'Zain Cake Bakery',
+    accountName: 'Cake House',
     accountDetails: 'Bank: (Your Bank Name) | A/C: (Your Account Number) | IBAN: (Your IBAN)',
   },
 ];

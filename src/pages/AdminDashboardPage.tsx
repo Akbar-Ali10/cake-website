@@ -347,7 +347,7 @@ export default function AdminDashboardPage() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 flex flex-col gap-4 rounded-3xl bg-cocoa-800 px-6 py-5 text-cream-50 shadow-lg md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-xs uppercase tracking-[0.2em] text-cream-300">Zain Cake</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-cream-300">Cake House</p>
             <h1 className="mt-2 font-display text-3xl">Admin Dashboard</h1>
           </div>
 

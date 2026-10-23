@@ -38,7 +38,7 @@ export default function AdminLoginPage() {
     <div className="min-h-screen bg-cream-50 flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md rounded-3xl bg-cream-100 border border-cream-200 shadow-xl overflow-hidden">
         <div className="bg-cocoa-800 px-6 py-5">
-          <p className="text-xs uppercase tracking-[0.24em] text-cream-300">Zain Cake Admin</p>
+          <p className="text-xs uppercase tracking-[0.24em] text-cream-300">Cake House Admin</p>
           <h1 className="mt-2 font-display text-3xl text-cream-50">Secure Login</h1>
         </div>
 
@@ -53,7 +53,7 @@ export default function AdminLoginPage() {
               value={email}
               onChange={(event) => setEmail(event.target.value)}
               className="w-full rounded-xl border border-cream-300 bg-white px-3 py-2.5 text-cocoa-700 outline-none focus:border-cocoa-400"
-              placeholder="admin@zaincake.com"
+              placeholder="Enter admin email"
               required
             />
           </div>

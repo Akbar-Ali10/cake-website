@@ -164,7 +164,7 @@ export default function HomePage({ onNavigate, onCakeClick, onQuickAdd }: HomePa
         </div>
       </section>
 
-      {/* About Zain Cake */}
+      {/* About Cake House */}
       <section id="about" className="py-20 bg-cream-50 scroll-mt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -172,7 +172,7 @@ export default function HomePage({ onNavigate, onCakeClick, onQuickAdd }: HomePa
               <div className="overflow-hidden rounded-[2rem] shadow-xl h-[420px] sm:h-[500px]">
                 <img
                   src="https://images.pexels.com/photos/32459865/pexels-photo-32459865.jpeg?auto=compress&cs=tinysrgb&h=900&w=1200"
-                  alt="Zain Cake bakery cake display"
+                  alt="Cake House bakery cake display"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -182,7 +182,7 @@ export default function HomePage({ onNavigate, onCakeClick, onQuickAdd }: HomePa
             </div>
 
             <div>
-              <span className="text-sm font-medium text-cocoa-400 tracking-widest uppercase">About Zain Cake</span>
+              <span className="text-sm font-medium text-cocoa-400 tracking-widest uppercase">About Cake House</span>
               <h2 className="font-display text-3xl sm:text-4xl font-semibold text-cocoa-700 mt-2 mb-6">
                 Baked with love for every celebration in Karachi.
               </h2>

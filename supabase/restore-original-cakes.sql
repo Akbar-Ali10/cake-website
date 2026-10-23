@@ -1,4 +1,4 @@
--- Restore the original Zain Cake catalogue from src/config/siteConfig.ts.
+-- Restore the original Cake House catalogue from src/config/siteConfig.ts.
 -- Safe, one-time seed: runs repeatedly without creating duplicates.
 -- Run this in Supabase SQL Editor after the schema file has been applied.
 
